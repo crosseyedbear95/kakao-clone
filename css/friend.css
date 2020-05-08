@@ -7,4 +7,34 @@
 .friend .friend__avatar {
   width: 50px;
   border-radius: 35%;
+  margin-right: 15px;
+}
+
+.friend__avatar.g-avatar {
+  width: 70px;
+}
+
+.friend__avatar.m-avatar {
+  width: 60px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__name {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.friend .friend__bottom-text {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.friend .friend__status,
+.friend .chat__timestamp {
+  font-size: 12px;
+  opacity: 0.7;
 }
