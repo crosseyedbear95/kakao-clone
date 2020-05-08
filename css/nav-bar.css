@@ -16,3 +16,22 @@
 .nav i {
   font-size: 20px;
 }
+
+.nav .nav__list-link {
+  position: relative;
+}
+
+.nav .nav__badge {
+  position: absolute;
+  color: white;
+  background-color: #e65f3e;
+  font-size: 12px;
+  top: -8px;
+  right: -8px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
