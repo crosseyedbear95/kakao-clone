@@ -1,3 +1,23 @@
 .settings {
   margin-top: 92px;
 }
+
+.settings .settings__section {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #f1ecec;
+}
+
+.settings .settings__setting {
+  margin-bottom: 25px;
+}
+
+.settings .settings__icon {
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings .settings__title {
+  font-size: 22px;
+  font-weight: 300;
+}
