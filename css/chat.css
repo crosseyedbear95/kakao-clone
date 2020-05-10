@@ -14,31 +14,38 @@
   margin: auto;
   left: 0;
   right: 0;
-  background-color: #f5f1f1;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .chat__write {
-  padding: 10px 30px;
+  padding: 14px 50px;
   width: 100%;
   border: none;
   font-size: 14px;
+  margin: auto;
+  transition: transform 0.5s ease-in-out, border-radius 0.5s ease-in-out,
+    width 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.chat__write:focus {
+  outline: none;
+  width: 80%;
+  border-radius: 30px;
+  transform: translateY(-100px);
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
 
 .chat__write-left {
   position: absolute;
-  left: 0;
+  left: 10px;
 }
 
 .chat__write-right {
   position: absolute;
   right: 10px;
-}
-
-.chat__write--container input:focus {
-  outline: none;
 }
 
 .chat__icon {
